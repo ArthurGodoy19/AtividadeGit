@@ -30,6 +30,15 @@ git commit -am "commit add texto em arquivos de texto usando branch desenvolvime
 instrução 9
 git checkout revisao
 
+instrução 10 
+git commit -am "commit add texto em arquivos de texto na branch revisao"
+
+instrução 11
+git checkout desenvolvimento
+git merge revisao
+
+
+
 
 
 
