@@ -1,0 +1,59 @@
+Instrução 1 
+git config --global user.name “Arthur Godoy”
+git config --global user.email “arthurguarizi.godoy@gmail.com”
+
+Instrução 2
+mkdir AtividadeGit
+cd AtividadeGit/
+touch comandos.txt
+
+instrução 3
+git init
+
+instrução 4
+touch introducao.txt desenvolvimento.txt conclusao.txt
+
+instrução 5
+git add .
+git commit -am "Primeiro commit"
+
+isntrução 6
+git branch desenvolvimento
+git branch revisao
+
+instrução 7
+git checkout desenvolvimento
+
+instrução 8
+git commit -am "commit add texto em arquivos de texto usando branch desenvolvimento"
+
+instrução 9
+git checkout revisao
+
+instrução 10 
+git commit -am "commit add texto em arquivos de texto na branch revisao"
+
+instrução 11
+git checkout desenvolvimento
+git merge revisao
+
+instrução 13
+git commit -am "resolvendo conflitos do merge"
+
+Intrução 14:
+git log
+git log --oneline
+git checkout master
+(copio as fotos na pasta)
+git add .
+git log --graph --oneline --all
+git add .
+git commit -am "commit add foto log_graph_oneline_all"
+
+
+
+
+
+
+
+
