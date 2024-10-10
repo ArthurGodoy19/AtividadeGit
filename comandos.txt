@@ -40,7 +40,7 @@ git merge revisao
 instrução 13
 git commit -am "resolvendo conflitos do merge"
 
-Intrução 14:
+instrução 14:
 git log
 git log --oneline
 git checkout master
@@ -49,6 +49,15 @@ git add .
 git log --graph --oneline --all
 git add .
 git commit -am "commit add foto log_graph_oneline_all"
+
+Intrução 15:
+git merge desenvolvimento
+git commit -am "commit arrumando conflito com o arquivo.txt"
+git log --graph --oneline --all
+git status
+git add .
+git commit -am "commit final"
+
 
 
 
