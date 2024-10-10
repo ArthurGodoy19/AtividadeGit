@@ -54,9 +54,8 @@ Intrução 15:
 git merge desenvolvimento
 git commit -am "commit arrumando conflito com o arquivo.txt"
 git log --graph --oneline --all
-git status
 git add .
-git commit -am "commit final"
+git commit -am "commit printFinal"
 
 
 
